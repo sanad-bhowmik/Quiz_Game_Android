@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Project</string>
+
+    <string name="score">Score 0/8</string>
+    <string name="question_number">1/8 Question</string>
+
+    <string name="question_1">BCD is _______?</string>
+    <string name="question1_A">FEF</string>
+    <string name="question1_B">Ethernet</string>
+    <string name="question1_C">NFC</string>
+    <string name="question1_D">Binary Coded Decimal</string>
+    <string name="answer_1">Binary Coded Decimal</string>
+
+
+    <string name="question_2">Which computer language is the most widely used?</string>
+    <string name="question_2A">C#</string>
+    <string name="question_2B">Swift</string>
+    <string name="question_2C">PHP</string>
+    <string name="question_2D">Java</string>
+    <string name="answer_2">Java</string>
+
+
+    <string name="question_3"> The first web browser is _______?</string>
+    <string name="question_3A"> Doxing</string>
+    <string name="question_3B">Debugging</string>
+    <string name="question_3C">Downloading</string>
+    <string name="question_3D">Mosaic</string>
+    <string name="answer_3">Mosaic</string>
+
+    <string name="question_4">What is FORTRAN?</string>
+    <string name="question_4A">40 Gigabytes</string>
+    <string name="question_4B">40 Terabytes</string>
+    <string name="question_4C">40 Megabytes</string>
+    <string name="question_4D">Formula Translation</string>
+    <string name="answer_4">Formula Translation</string>
+
+    <string name="question_5">Scientific Name of Computer?</string>
+    <string name="question_5A"> PDF</string>
+    <string name="question_5B">Sillico sapiens</string>
+    <string name="question_5C">MP3</string>
+    <string name="question_5D">ZIP</string>
+    <string name="answer_5">Sillico sapiens</string>
+
+    <string name="question_6">Who is the founder of Android?</string>
+    <string name="question_6A"> Zim </string>
+    <string name="question_6B">Jhon</string>
+    <string name="question_6C">San</string>
+    <string name="question_6D">Andy Rubin.</string>
+    <string name="answer_6">Andy Rubin.</string>
+
+    <string name="question_7">Who is the father of Computer science?</string>
+    <string name="question_7A">Charles Babbage</string>
+    <string name="question_7B">Sam</string>
+    <string name="question_7C">Karan</string>
+    <string name="question_7D">Programmer</string>
+    <string name="answer_7">Charles Babbage</string>
+
+    <string name="question_8">In a computer, most processing takes place in _______?</string>
+    <string name="question_8A"> Report</string>
+    <string name="question_8B">CPU</string>
+    <string name="question_8C">Record</string>
+    <string name="question_8D">File</string>
+    <string name="answer_8">CPU</string>
+    <string name="selctedoption">SelctedOption</string>
+    <string name="correctanswer">CorrectAnswer</string>
+
+    <string name="firedata">Dropdown</string>
+    <string-array name="countryName">
+        <item>Good</item>
+        <item>Bad</item>
+        <item>Avarage</item>
+    </string-array>
+
+
+</resources>

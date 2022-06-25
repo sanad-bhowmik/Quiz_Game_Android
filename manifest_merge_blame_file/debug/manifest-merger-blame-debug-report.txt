@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.quiztutorial"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:5:5-26:19
+17        android:allowBackup="true"
+17-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\a894a1edd29869581fd574be25483949\core-1.5.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:7:9-43
+21        android:label="@string/app_name"
+21-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:8:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:9:9-54
+23        android:supportsRtl="true"
+23-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:10:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:11:9-40
+26        <activity
+26-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:12:9-14:40
+27            android:name="com.example.quiztutorial.Firedata"
+27-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:13:13-37
+28            android:exported="false" />
+28-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:14:13-37
+29        <activity
+29-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:15:9-17:40
+30            android:name="com.example.quiztutorial.Radiobtn"
+30-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:16:13-37
+31            android:exported="false" />
+31-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:17:13-37
+32        <activity android:name="com.example.quiztutorial.MainActivity" />
+32-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:18:9-50
+32-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:18:19-47
+33        <activity android:name="com.example.quiztutorial.splash" >
+33-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:19:9-25:20
+33-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:19:19-41
+34            <intent-filter>
+34-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:20:13-24:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:21:17-69
+35-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:21:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:23:17-77
+37-->E:\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\QuizAppInAndroidStudio-master\app\src\main\AndroidManifest.xml:23:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <service
+41-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:29:9-35:19
+42            android:name="com.google.firebase.components.ComponentDiscoveryService"
+42-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:30:13-84
+43            android:directBootAware="true"
+43-->[com.google.firebase:firebase-common:20.1.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\39cdb26e204f1f37a60fd8639525226a\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+44            android:exported="false" >
+44-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:31:13-37
+45            <meta-data
+45-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:32:13-34:85
+46                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+46-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:33:17-109
+47                android:value="com.google.firebase.components.ComponentRegistrar" />
+47-->[com.google.firebase:firebase-database:20.0.5] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\be5a44114deaec3b2e618c8431f1729a\jetified-firebase-database-20.0.5\AndroidManifest.xml:34:17-82
+48        </service>
+49
+50        <activity
+50-->[com.google.android.gms:play-services-base:18.0.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\aa49b0aeed81068c7f19ced31c456cbd\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:18.0.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\aa49b0aeed81068c7f19ced31c456cbd\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:18.0.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\aa49b0aeed81068c7f19ced31c456cbd\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:18.0.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\aa49b0aeed81068c7f19ced31c456cbd\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+54
+55        <provider
+55-->[com.google.firebase:firebase-common:20.1.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\39cdb26e204f1f37a60fd8639525226a\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+56            android:name="com.google.firebase.provider.FirebaseInitProvider"
+56-->[com.google.firebase:firebase-common:20.1.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\39cdb26e204f1f37a60fd8639525226a\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+57            android:authorities="com.example.quiztutorial.firebaseinitprovider"
+57-->[com.google.firebase:firebase-common:20.1.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\39cdb26e204f1f37a60fd8639525226a\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:20.1.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\39cdb26e204f1f37a60fd8639525226a\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+59            android:exported="false"
+59-->[com.google.firebase:firebase-common:20.1.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\39cdb26e204f1f37a60fd8639525226a\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+60            android:initOrder="100" />
+60-->[com.google.firebase:firebase-common:20.1.1] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\39cdb26e204f1f37a60fd8639525226a\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+61
+62        <meta-data
+62-->[com.google.android.gms:play-services-basement:18.0.0] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\2f29bce29cb61f79f8b02357171c75b9\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+63            android:name="com.google.android.gms.version"
+63-->[com.google.android.gms:play-services-basement:18.0.0] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\2f29bce29cb61f79f8b02357171c75b9\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+64            android:value="@integer/google_play_services_version" />
+64-->[com.google.android.gms:play-services-basement:18.0.0] D:\TEACHER_CLASSROOM_ASSISTANT_IN_ANDROID_WITH_SOURCE_CODE\AndroidTeachers-master\caches\transforms-2\files-2.1\2f29bce29cb61f79f8b02357171c75b9\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+65    </application>
+66
+67</manifest>

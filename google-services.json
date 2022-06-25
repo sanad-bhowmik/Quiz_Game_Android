@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "768885239754",
+    "firebase_url": "https://nameentry-166df-default-rtdb.firebaseio.com",
+    "project_id": "nameentry-166df",
+    "storage_bucket": "nameentry-166df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768885239754:android:827ef6812debfef475a933",
+        "android_client_info": {
+          "package_name": "com.example.quiztutorial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "768885239754-dkj4lu2dqr270megegcumgfbh8fl36s4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHrTeExDdvnTt6ik5Qp9xgkyQrGwm3PzY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "768885239754-dkj4lu2dqr270megegcumgfbh8fl36s4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

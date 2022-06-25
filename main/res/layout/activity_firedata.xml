@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/genderimg"
+    tools:context=".Firedata">
+
+
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/edit_name"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student id" />
+
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/edit_position"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_submit"
+        android:layout_marginTop="25dp"
+        android:text="Save to Database"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:textStyle="bold"
+        android:onClick="SubmitFunction"
+        android:background="#278C2B"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40sp"
+        android:gravity="center"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:text="GENDER"
+        android:textSize="40dp" />
+
+    <RadioGroup
+        android:id="@+id/q2myRadioGroupID"
+        android:background="#5C5F73"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/q2radioBtn1Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Male"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/q2radioBtn2Id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="Female"
+            android:textSize="30dp" />
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="70sp"
+        android:layout_marginEnd="70sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#72BD1B"
+        android:text="FeedBack"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/mySpinerID"
+        android:background="#00BCD4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30sp"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        android:layout_marginStart="30sp"
+        android:layout_marginEnd="30sp"
+        android:textStyle="bold"
+        android:background="@color/color2"/>
+
+</LinearLayout>
